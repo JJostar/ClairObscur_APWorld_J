@@ -37,6 +37,12 @@ class ClairObscurSettings(settings.Group):
     """
 
 class ClairObscurWorld(World):
+    """
+    When one falls, we continue.
+    Clair Obscur: Expedition 33 is a turn-based "j'RPG" with real-time dodging/parrying and tons of build variety,
+    a breakout debut hit and underdog success story from French studio Sandfall Interactive.
+    For those who come after.
+    """
     game = "Clair Obscur Expedition 33"
     web = WebClairObscur()
     topology_present = True
